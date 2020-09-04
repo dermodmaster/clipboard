@@ -5,10 +5,17 @@
         </span>
         <span class="mr-3">
                 <v-chip><v-icon >mdi-crown</v-icon><strong class="mr-1">{{controller}}</strong> Controller</v-chip>
-            </span>
+        </span>
         <span class="mr-3">
                 <v-chip><v-icon >mdi-youtube-tv</v-icon><strong class="mr-1">{{viewer}}</strong> Viewer</v-chip>
-            </span>
+        </span>
+        <v-spacer></v-spacer>
+        <span class="overline mr-3">
+            CLIPBOARD
+        </span>
+        <span class="">
+            3EF.DE
+        </span>
     </v-system-bar>
 </template>
 

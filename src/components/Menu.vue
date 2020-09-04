@@ -3,16 +3,16 @@
         <systembar></systembar>
         <v-row class="fullscreen text-center" justify="center" align="center">
             <v-col>
-                <h1 class="display-3 font-weight-thin">Ich bin...</h1>
-                <v-row>
+                <h1 class="display-4 mb-12 font-weight-thin">Ich bin</h1>
+                <v-row style="background-color: rgba(255,255,255,0.05)">
                     <v-col @click="registerViewer">
-                        <router-link to="viewer" tag="span">
-                            <v-btn>Viewer</v-btn>
+                        <router-link to="viewer" tag="span" class="v-chip--clickable">
+                            <h1 class="display-3 font-weight-thin">Viewer</h1>
                         </router-link>
                     </v-col>
                     <v-col @click="registerController">
-                        <router-link to="controller"  tag="span">
-                            <v-btn>Controller</v-btn>
+                        <router-link to="controller"  tag="span" class="v-chip--clickable">
+                            <h1 class="display-3 font-weight-thin">Controller</h1>
                         </router-link>
                     </v-col>
 
